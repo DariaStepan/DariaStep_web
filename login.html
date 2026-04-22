@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtMuse Gallery — Вход</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-login">
+
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html" class="logo-text">ArtMuse Gallery</a>
+            </div>
+
+            <nav class="nav-main">
+                <a href="index.html">ГЛАВНАЯ</a>
+                <a href="catalog.html">КОЛЛЕКЦИИ</a>
+                <a href="page.html">ВЫСТАВКА</a>
+            </nav>
+
+            <nav class="nav-user">
+                <a href="login.html">ВХОД</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="login-page-main">
+        <section class="login-section">
+            <div class="login-layout">
+                <div class="login-info">
+                    <p class="section-label">Личный кабинет</p>
+                    <h1 class="section-title">Вход в пространство ArtMuse</h1>
+                    <p class="login-text">
+                        Войдите в личный кабинет, чтобы сохранять интересующие выставки,
+                        получать информацию о новых проектах и оставлять заявки на посещение.
+                    </p>
+
+                    <div class="login-note">
+                        <p>Современное искусство начинается с внимания к деталям.</p>
+                    </div>
+                </div>
+
+                <div class="login-form-wrapper">
+                    <form class="login-form" action="index.html">
+                        <div class="form-group">
+                            <label for="email">Электронная почта</label>
+                            <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Пароль</label>
+                            <input type="password" id="password" name="password" placeholder="Введите пароль"
+                                minlength="6" required>
+                        </div>
+
+                        <button type="submit" class="btn-primary login-btn">Войти</button>
+
+                        <div class="form-links">
+                            <a href="#">Забыли пароль?</a>
+                            <p>Нет аккаунта? <a href="#">Зарегистрироваться</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>Санкт-Петербург, Невский пр., 24</p>
+                <p>Вт–Вс: 11:00 — 20:00</p>
+                <p>info@artmuse-gallery.ru</p>
+            </div>
+
+            <div class="footer-center">
+                <p>© 2026 ArtMuse Gallery. Все права защищены.</p>
+            </div>
+
+            <div class="footer-right">
+                <a href="#">Telegram</a>
+                <a href="#">VK</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

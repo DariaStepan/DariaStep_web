@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtMuse Gallery — Главная</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-home">
+
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html" class="logo-text">ArtMuse Gallery</a>
+            </div>
+
+            <nav class="nav-main">
+                <a href="index.html">ГЛАВНАЯ</a>
+                <a href="catalog.html">КОЛЛЕКЦИИ</a>
+                <a href="page.html">ВЫСТАВКА</a>
+            </nav>
+
+            <nav class="nav-user">
+                <a href="login.html">ВОЙТИ</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <p class="hero-label">Современная галерея в Санкт-Петербурге</p>
+                    <h1>Искусство,<br>которое<br>становится опытом</h1>
+                    <p class="hero-description">
+                        ArtMuse Gallery — пространство современных выставок,
+                        где зритель становится частью художественного процесса,
+                        а визуальный язык превращается в личный опыт.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="catalog.html" class="btn-primary">Смотреть коллекции</a>
+                        <a href="page.html" class="btn-secondary">Текущая выставка</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="img/hero-gallery.jpg" alt="Интерьер галереи современного искусства">
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="page-container">
+                <div class="section-intro">
+                    <p class="section-label">О галерее</p>
+                    <h2 class="section-title">Пространство выставок, встреч и визуальных впечатлений</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>Выставки</h3>
+                        <p>
+                            Мы представляем сезонные экспозиции современных художников,
+                            фотографов и digital-авторов, формируя живую и актуальную программу.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <h3>Лекции и события</h3>
+                        <p>
+                            Галерея становится местом обсуждений, авторских встреч и камерных
+                            мероприятий, связанных с культурой и визуальной средой.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <h3>Коллекции</h3>
+                        <p>
+                            В ArtMuse можно познакомиться с авторскими сериями работ,
+                            curated-подборками и тематическими проектами разных направлений.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slider-section">
+            <div class="page-container">
+                <div class="section-intro">
+                    <p class="section-label">Избранное</p>
+                    <h2 class="section-title">Актуальные работы и выставочные проекты</h2>
+                </div>
+
+                <div class="glide" id="art-glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <div class="art-slide-card">
+                                    <img src="img/catalog-1.jpg" alt="RE ANIMALS IN TOYAMA RE GREEN">
+                                    <div class="art-slide-info">
+                                        <h3>RE ANIMALS IN TOYAMA RE GREEN</h3>
+                                        <p>Скульптура</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="art-slide-card">
+                                    <img src="img/catalog-2.jpg" alt="Fear No Power">
+                                    <div class="art-slide-info">
+                                        <h3>Fear No Power</h3>
+                                        <p>Выставки</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="art-slide-card">
+                                    <img src="img/catalog-3.jpg" alt="Takeout Tuesday">
+                                    <div class="art-slide-info">
+                                        <h3>Takeout Tuesday</h3>
+                                        <p>Выставки</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="art-slide-card">
+                                    <img src="img/catalog-4.jpg" alt="Magnifissance">
+                                    <div class="art-slide-info">
+                                        <h3>Magnifissance</h3>
+                                        <p>Живопись</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="art-slide-card">
+                                    <img src="img/catalog-6.jpg" alt="Первая леди">
+                                    <div class="art-slide-info">
+                                        <h3>Первая леди</h3>
+                                        <p>Fernando Botero</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="art-slide-card">
+                                    <img src="img/catalog-7.jpg" alt="Спектр синего шума">
+                                    <div class="art-slide-info">
+                                        <h3>Спектр синего шума</h3>
+                                        <p>Нестор Хименес</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<"
+                            aria-label="Предыдущий слайд">
+                            &#8592;
+                        </button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">"
+                            aria-label="Следующий слайд">
+                            &#8594;
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="directions-section">
+            <div class="page-container">
+                <div class="section-intro">
+                    <p class="section-label">Направления</p>
+                    <h2 class="section-title">Что можно увидеть в ArtMuse Gallery</h2>
+                </div>
+
+                <div class="directions-grid">
+                    <a href="catalog.html" class="direction-card">
+                        <span class="direction-number">01</span>
+                        <h3>Живопись</h3>
+                        <p>Авторские серии, абстракция, фигуративные и экспериментальные проекты.</p>
+                    </a>
+
+                    <a href="catalog.html" class="direction-card">
+                        <span class="direction-number">02</span>
+                        <h3>Фотография</h3>
+                        <p>Городские истории, документальные кадры и художественные фотосерии.</p>
+                    </a>
+
+                    <a href="catalog.html" class="direction-card">
+                        <span class="direction-number">03</span>
+                        <h3>Digital Art</h3>
+                        <p>Современные цифровые формы, новые медиа и визуальные эксперименты.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="current-exhibition current-kusama">
+            <div class="page-container">
+                <div class="current-exhibition-box">
+                    <div class="current-exhibition-text">
+                        <p class="section-label">Сейчас в галерее</p>
+                        <h2 class="section-title">Яёй Кусама: Теория бесконечности</h2>
+                        <p>
+                            Выставочный проект, посвящённый художественному миру Яёй Кусамы:
+                            бесконечным повторениям, зеркальным пространствам, ярким ритмам
+                            и узнаваемому визуальному языку, в котором горошек становится
+                            символом бесконечности и личного переживания.
+                        </p>
+                        <a href="page.html" class="btn-primary">Подробнее о выставке</a>
+                    </div>
+
+                    <div class="current-exhibition-image">
+                        <img src="img/exhibition-2.jpg" alt="Выставка Яёй Кусамы в галерее">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>Санкт-Петербург, Невский пр., 24</p>
+                <p>Вт–Вс: 11:00 — 20:00</p>
+                <p>info@artmuse-gallery.ru</p>
+            </div>
+
+            <div class="footer-center">
+                <p>© 2026 ArtMuse Gallery. Все права защищены.</p>
+            </div>
+
+            <div class="footer-right">
+                <a href="#">Telegram</a>
+                <a href="#">VK</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/glide.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const glideEl = document.getElementById('art-glide');
+
+            if (glideEl) {
+                new Glide('#art-glide', {
+                    type: 'carousel',
+                    perView: 3,
+                    gap: 24,
+                    autoplay: 3000,
+                    hoverpause: true,
+                    animationDuration: 700,
+                    breakpoints: {
+                        1024: {
+                            perView: 2
+                        },
+                        768: {
+                            perView: 1
+                        }
+                    }
+                }).mount();
+            }
+        });
+    </script>
+
+</body>
+
+</html>

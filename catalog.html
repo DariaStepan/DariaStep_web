@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtMuse Gallery — Коллекции и проекты</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-catalog">
+
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html" class="logo-text">ArtMuse Gallery</a>
+            </div>
+
+            <nav class="nav-main">
+                <a href="index.html">ГЛАВНАЯ</a>
+                <a href="catalog.html">КОЛЛЕКЦИИ</a>
+                <a href="page.html">ВЫСТАВКА</a>
+            </nav>
+
+            <nav class="nav-user">
+                <a href="login.html">ВОЙТИ</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="catalog-page-main">
+        <section class="catalog-hero">
+            <div class="page-container">
+                <p class="section-label">Архив и коллекции</p>
+                <h1 class="section-title">Прошедшие выставки и избранные художественные проекты</h1>
+                <p class="catalog-hero-text">
+                    В ArtMuse Gallery собраны выставочные проекты, живопись, фотография и скульптурные
+                    объекты, формирующие архив визуальных впечатлений и кураторских историй галереи.
+                </p>
+            </div>
+        </section>
+
+        <input type="radio" name="filter" id="filter-all" class="filter-input" checked>
+        <input type="radio" name="filter" id="filter-sculpture" class="filter-input">
+        <input type="radio" name="filter" id="filter-exhibition" class="filter-input">
+        <input type="radio" name="filter" id="filter-painting" class="filter-input">
+        <input type="radio" name="filter" id="filter-photo" class="filter-input">
+
+        <section class="catalog-filter-section">
+            <div class="page-container">
+                <div class="sub-header-container">
+                    <label for="filter-all" class="filter-btn">Все</label>
+                    <label for="filter-sculpture" class="filter-btn">Скульптура</label>
+                    <label for="filter-exhibition" class="filter-btn">Выставки</label>
+                    <label for="filter-painting" class="filter-btn">Живопись</label>
+                    <label for="filter-photo" class="filter-btn">Фотография</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <div class="page-container">
+                <h2 class="section-title">Прошедшие выставки</h2>
+
+                <div class="products-grid art-grid">
+                    <article class="product-card art-card filter-sculpture">
+                        <div class="product-image art-card-image">
+                            <a href="page.html">
+                                <img src="img/catalog-1.jpg" alt="RE ANIMALS IN TOYAMA RE GREEN">
+                            </a>
+                        </div>
+                        <div class="product-info art-card-info">
+                            <p class="art-type">Скульптура</p>
+                            <h3>RE ANIMALS IN TOYAMA RE GREEN</h3>
+                            <p class="site-collection">Выставочный объект</p>
+                            <p class="art-desc">
+                                Скульптурный образ, соединяющий игровую форму, декоративность
+                                и современное выставочное пространство.
+                            </p>
+                            <a href="page.html" class="card-link">Подробнее</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card art-card filter-exhibition">
+                        <div class="product-image art-card-image">
+                            <a href="page.html">
+                                <img src="img/catalog-2.jpg"
+                                    alt="Fear No Power: Women Imagining Otherwise — Asian Journeys">
+                            </a>
+                        </div>
+                        <div class="product-info art-card-info">
+                            <p class="art-type">Выставки</p>
+                            <h3>Fear No Power</h3>
+                            <p class="site-collection">Women Imagining Otherwise — Asian Journeys</p>
+                            <p class="art-desc">
+                                Проект, посвящённый женскому взгляду, культурной памяти
+                                и альтернативным художественным маршрутам.
+                            </p>
+                            <a href="page.html" class="card-link">Подробнее</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card art-card filter-exhibition">
+                        <div class="product-image art-card-image">
+                            <a href="page.html">
+                                <img src="img/catalog-3.jpg" alt="Takeout Tuesday, Less But Better">
+                            </a>
+                        </div>
+                        <div class="product-info art-card-info">
+                            <p class="art-type">Выставки</p>
+                            <h3>Takeout Tuesday</h3>
+                            <p class="site-collection">Less But Better</p>
+                            <p class="art-desc">
+                                Современная выставочная работа о ритме повседневности,
+                                визуальном минимализме и новой предметности.
+                            </p>
+                            <a href="page.html" class="card-link">Подробнее</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card art-card filter-painting">
+                        <div class="product-image art-card-image">
+                            <a href="page.html">
+                                <img src="img/catalog-4.jpg" alt="Magnifissance: Classical Art">
+                            </a>
+                        </div>
+                        <div class="product-info art-card-info">
+                            <p class="art-type">Живопись</p>
+                            <h3>Magnifissance</h3>
+                            <p class="site-collection">Classical Art</p>
+                            <p class="art-desc">
+                                Экспозиция, построенная на диалоге классического наследия
+                                и современного музейного показа.
+                            </p>
+                            <a href="page.html" class="card-link">Подробнее</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card art-card filter-photo">
+                        <div class="product-image art-card-image">
+                            <a href="page.html">
+                                <img src="img/catalog-5.jpg" alt="Пространство галереи">
+                            </a>
+                        </div>
+                        <div class="product-info art-card-info">
+                            <p class="art-type">Фотография</p>
+                            <h3>Пространство галереи</h3>
+                            <p class="site-collection">Интерьер экспозиции</p>
+                            <p class="art-desc">
+                                Архитектура выставочного пространства, свет, ритм стен
+                                и визуальная тишина галереи.
+                            </p>
+                            <a href="page.html" class="card-link">Подробнее</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card art-card filter-painting">
+                        <div class="product-image art-card-image">
+                            <a href="page.html">
+                                <img src="img/catalog-6.jpg" alt="Фернандо Ботеро — Первая леди">
+                            </a>
+                        </div>
+                        <div class="product-info art-card-info">
+                            <p class="art-type">Живопись</p>
+                            <h3>Первая леди</h3>
+                            <p class="site-collection">Fernando Botero</p>
+                            <p class="art-desc">
+                                Узнаваемая пластика формы, ирония образа и характерный
+                                художественный язык мастера.
+                            </p>
+                            <a href="page.html" class="card-link">Подробнее</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card art-card filter-painting">
+                        <div class="product-image art-card-image">
+                            <a href="page.html">
+                                <img src="img/catalog-7.jpg" alt="Нестор Хименес. Спектр синего шума">
+                            </a>
+                        </div>
+                        <div class="product-info art-card-info">
+                            <p class="art-type">Живопись</p>
+                            <h3>Спектр синего шума</h3>
+                            <p class="site-collection">Нестор Хименес</p>
+                            <p class="art-desc">
+                                Работа, построенная на цветовой глубине, вибрации оттенков
+                                и почти медитативном восприятии синего.
+                            </p>
+                            <a href="page.html" class="card-link">Подробнее</a>
+                        </div>
+                    </article>
+
+                    <article class="product-card art-card filter-photo">
+                        <div class="product-image art-card-image">
+                            <a href="page.html">
+                                <img src="img/catalog-8.jpg" alt="Чёрно-белая театральная сцена">
+                            </a>
+                        </div>
+                        <div class="product-info art-card-info">
+                            <p class="art-type">Фотография</p>
+                            <h3>Театральная сцена</h3>
+                            <p class="site-collection">Сценический кадр</p>
+                            <p class="art-desc">
+                                Атмосферное изображение, в котором театральность, свет
+                                и чёрно-белая тональность становятся самостоятельным высказыванием.
+                            </p>
+                            <a href="page.html" class="card-link">Подробнее</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog-note-section">
+            <div class="page-container">
+                <div class="catalog-note-box">
+                    <p class="section-label">ArtMuse Gallery</p>
+                    <h2 class="section-title">Каждая выставка — это отдельная визуальная история</h2>
+                    <p>
+                        Мы соединяем живопись, фотографию, скульптуру и кураторские проекты
+                        в одном пространстве, где зритель может не только смотреть,
+                        но и вступать в диалог с искусством.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>Санкт-Петербург, Невский пр., 24</p>
+                <p>Вт–Вс: 11:00 — 20:00</p>
+                <p>info@artmuse-gallery.ru</p>
+            </div>
+
+            <div class="footer-center">
+                <p>© 2026 ArtMuse Gallery. Все права защищены.</p>
+            </div>
+
+            <div class="footer-right">
+                <a href="#">Telegram</a>
+                <a href="#">VK</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
